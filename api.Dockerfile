@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:10-alpine
 
 # diretório alvo
 RUN mkdir -p /usr/src/node-api
