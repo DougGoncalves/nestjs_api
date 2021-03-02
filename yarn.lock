@@ -3385,6 +3385,11 @@
   "resolved" "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz"
   "version" "1.0.2"
 
+"foreachasync@^3.0.0":
+  "integrity" "sha1-VQKYfchxS+M5IJfzLgBxyd7gfPY="
+  "resolved" "https://registry.npmjs.org/foreachasync/-/foreachasync-3.0.0.tgz"
+  "version" "3.0.0"
+
 "forever-agent@~0.6.1":
   "integrity" "sha1-+8cfDEGt6zf5bFd60e1C2P2sypE="
   "resolved" "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz"
@@ -3654,6 +3659,19 @@
   optionalDependencies:
     "uglify-js" "^3.1.4"
 
+"handlebars@4.7.6":
+  "integrity" "sha512-1f2BACcBfiwAfStCKZNrUCgqNZkGsAT7UM3kkYtXuLo0KnaVfjKOyf7PRzB6++aK9STyT1Pd2ZCPe3EGOXleXA=="
+  "resolved" "https://registry.npmjs.org/handlebars/-/handlebars-4.7.6.tgz"
+  "version" "4.7.6"
+  dependencies:
+    "minimist" "^1.2.5"
+    "neo-async" "^2.6.0"
+    "source-map" "^0.6.1"
+    "uglify-js" "^3.1.4"
+    "wordwrap" "^1.0.0"
+  optionalDependencies:
+    "uglify-js" "^3.1.4"
+
 "har-schema@^2.0.0":
   "integrity" "sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI="
   "resolved" "https://registry.yarnpkg.com/har-schema/-/har-schema-2.0.0.tgz"
@@ -3731,6 +3749,14 @@
   "version" "1.0.3"
   dependencies:
     "function-bind" "^1.1.1"
+
+"hbs@^4.1.1":
+  "integrity" "sha512-6QsbB4RwbpL4cb4DNyjEEPF+suwp+3yZqFVlhILEn92ScC0U4cDCR+FDX53jkfKJPhutcqhAvs+rOLZw5sQrDA=="
+  "resolved" "https://registry.npmjs.org/hbs/-/hbs-4.1.1.tgz"
+  "version" "4.1.1"
+  dependencies:
+    "handlebars" "4.7.6"
+    "walk" "2.3.14"
 
 "he@^1.2.0", "he@1.2.0":
   "integrity" "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw=="
@@ -7900,6 +7926,13 @@
   "version" "2.0.0"
   dependencies:
     "xml-name-validator" "^3.0.0"
+
+"walk@2.3.14":
+  "integrity" "sha512-5skcWAUmySj6hkBdH6B6+3ddMjVQYH5Qy9QGbPmN8kVmLteXk+yVXg+yfk1nbX30EYakahLrr8iPcCxJQSCBeg=="
+  "resolved" "https://registry.npmjs.org/walk/-/walk-2.3.14.tgz"
+  "version" "2.3.14"
+  dependencies:
+    "foreachasync" "^3.0.0"
 
 "walker@^1.0.7", "walker@~1.0.5":
   "integrity" "sha1-L3+bj9ENZ3JisYqITijRlhjgKPs="
