@@ -11,5 +11,5 @@ export const mailerConfig: MailerOptions = {
       layoutsDir: path.resolve(__dirname, '..', '..', 'templates'),
     },
   },
-  transport: `smtps://user@domain.com:pass@smtp.domain.com`, //substituir a senha e email
+  transport: `smtps://microservices36scj@gmail.com:fiap1234@smtp.gmail.com`, //substituir a senha e email
 };
