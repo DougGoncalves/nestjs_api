@@ -28,7 +28,7 @@ spec:
         - env:
             - name: NODE_ENV
               value: development
-          image: api
+          image: douggoncalves/nestjs-crud-api
           name: api
           ports:
             - containerPort: 3000
@@ -36,6 +36,8 @@ spec:
           volumeMounts:
             - mountPath: /usr/src/node-api/logs
               name: api-logs
+      imagePullSecrets:
+      - name: secret/nestjs-crud-api        
       restartPolicy: Always
       volumes:
         - name: api-logs
